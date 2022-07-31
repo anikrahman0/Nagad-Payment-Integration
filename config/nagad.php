@@ -31,5 +31,5 @@ return [
       | Supported: "json", "html",
       |
       */
-    "response_type"   => "json" // response type json/html
+    "response_type"   => "html" // response type json/html
 ];

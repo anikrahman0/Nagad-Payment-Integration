@@ -16,8 +16,7 @@ class NagadController extends Controller
         if($request->payment == 'nagad'){
             $amount = $request->amount;
             $randominvoice = rand(100000, 999999);
-            $data  = NagadPayment::create($amount,$randominvoice);
-            return redirect($data);
+            return redirect(NagadPayment::create($amount,$randominvoice));
         }
     }
   

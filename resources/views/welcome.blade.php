@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
-
+        <title>Nagad Payment Integration Using Laravel</title>
+        <link rel="shortcut icon" href="{{asset('images/nagad.png')}}" type="image/x-icon">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -24,7 +24,7 @@
                     <div class="text-center">            
                         <img width="100" height="100" src="{{asset('images/nagad.png')}}" alt="Nagad Image" title="Nagad Image">
                     </div>
-                    <h4 class="text-center mt-4 mb-4">Payment Integration Nagad In Laravel</h4>
+                    <h4 class="text-center mt-4 mb-4">Payment Integration Nagad Using Laravel</h4>
                     <div class="row jumbotron text-center">
                         <div class="col-sm-6 form-group mx-auto mb-4">
                             <input type="hidden" name="payment" value="nagad" checked id="nagad" required>
